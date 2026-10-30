@@ -1,0 +1,68 @@
+body {
+    background-color: #cfcfcf;
+    font-family: Arial;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+fieldset {
+    border: 1px solid #999;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #d9d9d9;
+}
+
+legend {
+    border: 1px solid #000;
+    padding: 5px 10px;
+    background-color: #cfcfcf;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+.obs {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+select {
+    width: 200px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #666;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}

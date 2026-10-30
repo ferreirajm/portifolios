@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConeteudoAula-02</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 id="top">Programação WEB</h1>
+    <h2>Curso de Redes de computadores</h2>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li><a href="#html">HTML</a></li>
+      <li><a href="#css">CSS</a></li>
+      <li><a href="#javascript">JAVASCRIPT</a></li>
+      <li><a href="#internet">INTERNET</a></li>
+      <li><a href="form.html" target="_self">FORMULARIO</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <main>
+  <center>
+  <div id="cabecalho">
+    <h3>Fundamentos de Desenvolvimento Web</h3>
+  </div>
+    <img id="ban" src="img/baner.png" alt="Banner Representativo" width="auto" height="450px">
+  </div>
+  <p id="lorem">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti qui, 
+    vitae quis ipsam modi hic in obcaecati optio! Est ipsum soluta quos 
+    fuga suscipit repellat dolore corporis iusto nemo provident.
+  </p>
+  <div id="tabela">
+    <table id="produtos">
+      <th colspan="3" style="background-color: rgb(124, 73, 158); color: white; padding: 10px;">LISTA DE PRODUTOS CADASTRADOS:</th>
+      <tr>
+        <th class="campo">Produto</th>
+        <th class="campo">Preço Unitário</th>
+        <th class="campo">Quantidade em Estoque</th>
+      </tr>
+      <tr>
+        <td>HD Sata 80 GB</td>
+        <td>R$85.00</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>PenDriver 2GB</td>
+        <td>R$15.00</td>
+        <td>150</td>
+      </tr>
+      <tr>
+        <td>Impressora Laser Colorida</td>
+        <td>R$613.99</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Monitor LCD 17 Pol</td>
+        <td>R$309.00</td>
+        <td>41</td>
+      </tr>
+    </table>
+  </div>
+  <div id="conteudo">
+    <h2 id="html" class="tema">HTML</h2>
+    <p class="paragrafo">
+      O HTML (HyperText Markup Language ou Linguagem de Marcação de Hipertexto) é a 
+      linguagem padrão usada para criar e estruturar páginas na internet. Ele 
+      funciona como o esqueleto de um site, organizando textos, imagens, links e 
+      outros elementos para que o navegador consiga exibi-los corretamente.O que o 
+      HTML fazDefine a estrutura básica de um site.Organiza conteúdos como títulos, 
+      parágrafos, listas e tabelas.Insere elementos visuais e mídias, como imagens, vídeos 
+      e áudios.Cria conexões por meio de hiperlinks para navegar entre páginas.Como ele 
+      funcionaO HTML não é uma linguagem de programação, mas sim de marcação. 
+      Isso significa que ele usa códigos chamados tags (marcadores entre os sinais < e >) 
+      para dizer ao navegador o que cada parte do conteúdo significa.A estrutura de um documento 
+      é dividida principalmente em:<"html">: o elemento raiz que envolve todo o código.<"head">: guarda as 
+      informações de configuração e o título da página.<"body">: contém todo o conteúdo visível para o 
+      usuário.Tecnologias associadasO HTML sozinho define apenas o conteúdo bruto. Para criar sites 
+      modernos e completos, ele trabalha junto com outras duas ferramentas essenciais:CSS: cuida do 
+      estilo, cores, fontes e do visual da página.JavaScript: adiciona dinamismo e interatividade
+    </p>
+    <p><a class="botao" href="#top">Voltar ao Inicio</a></p>
+
+    <h2 id="css" class="tema">CSS</h2>
+    <p class="paragrafo">
+      O CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é a linguagem usada para 
+      estilizar e dar identidade visual às páginas da internet. Enquanto o HTML cria a estrutura 
+      física e o esqueleto de um site, o CSS cuida de toda a parte estética, como cores, fontes, 
+      layouts e espaçamentos.O que o CSS fazAltera as cores de fundos, textos, bordas e links.Define
+      os tipos de letra, tamanhos e alinhamentos dos textos.Controla o layout da página, como o 
+      posicionamento de colunas e imagens.Garante o design responsivo, adaptando o site para celulares 
+      e computadores.Cria animações e efeitos de transição visual nos elementos.Como ele funcionaO CSS 
+      funciona por meio de regras que selecionam uma tag do HTML e aplicam propriedades específicas a 
+      ela. Cada regra tem um seletor e uma declaração.Veja a anatomia básica de um código CSS:cssp {
+      color: blue; font-size: 16px;}
+
+      Use o código com cuidado.p: o seletor que indica que a regra será aplicada a todos os parágrafos.
+      color: blue;: a propriedade e o valor que mudam a cor do texto para azul.font-size: 16px;: a propriedade 
+      e o valor que definem o tamanho da letra.Por que o termo "Em Cascata"?O nome "em cascata" refere-se à 
+      forma como o navegador lê e aplica as regras visuais. Se existirem duas regras diferentes para o mesmo 
+      elemento, o navegador segue uma ordem de prioridade (hierarquia). Geralmente, a regra mais específica 
+      ou a que foi escrita por último na folha de estilo é a que prevalece.Para entender a fundo como estilizar 
+      suas páginas, você pode consultar o guia completo de CSS na MDN Web Docs.
+    </p>
+    <p><a class="botao" href="#top">Voltar ao Inicio</a></p>
+
+    <h2 id="javascript" class="tema">JavaScript</h2>
+    <p class="paragrafo">
+      O JavaScript (ou JS) é uma linguagem de programação usada para tornar as páginas da internet dinâmicas e 
+      interativas. Enquanto o HTML cria o esqueleto do site e o CSS define o visual, o JavaScript funciona como 
+      o cérebro, controlando o comportamento da página em tempo real.O que o JavaScript fazCria elementos 
+      interativos como menus, carrosséis e botões inteligentes.Atualiza partes da página sem precisar recarregar 
+      o site inteiro.Cria animações complexas, jogos e gráficos em 2D ou 3D.Valida as informações de um formulário 
+      antes de enviá-las.Carrega novos dados de servidores em segundo plano (como o feed do seu Instagram).Como ele
+      funcionaO JavaScript é processado diretamente pelo navegador do usuário (no navegador de internet, 
+      como Chrome ou Firefox). Ele consegue ler e modificar os elementos do HTML e as regras do CSS enquanto 
+      você navega.Veja um exemplo simples de código que exibe uma mensagem na tela:
+        <br>
+        <code>
+          javascriptlet botao = document.querySelector('button');
+
+          botao.addEventListener('click', function()){
+          alert('Você clicou no botão e ativou o JavaScript!');
+          };
+        </code>
+        <br>
+      O Trio do Desenvolvimento WebPara entender a importância dele, 
+      pense na criação de um site como a construção de um carro:HTML: É o chassi, as rodas e a 
+      estrutura do veículo.CSS: É a pintura, o modelo dos bancos e o design do painel.JavaScript: 
+      É o motor, a parte elétrica e o sistema que faz tudo funcionar.Hoje o JavaScript também é 
+      usado fora dos navegadores para criar aplicativos de celular, programas de computador e 
+      servidores inteiros. Para explorar todo o potencial da linguagem, você pode ler o guia 
+      oficial na MDN Web Docs.
+    </p>
+    <p><a class="botao" href="#top">Voltar ao Inicio</a></p>
+
+    <h2 id="internet" class="tema">Internet</h2>
+    <p class="paragrafo">
+    A internet é uma rede global de computadores interconectados que trocam informações entre 
+    si. Ela funciona como a infraestrutura física e lógica mundial que permite que dispositivos 
+    no mundo todo — como computadores, celulares e servidores — conversem e compartilhem dados 
+    instantaneamente.O que ela fazConecta bilhões de dispositivos ao redor do planeta.Permite o 
+    envio de mensagens, e-mails e chamadas de vídeo.Viabiliza o streaming de filmes, músicas e 
+    jogos online.Armazena e distribui arquivos em sistemas de nuvem.Como ela funcionaA internet 
+    não funciona por satélite na maior parte do tempo, mas sim por cabos. Os dados viajam pelo 
+    mundo através de uma gigantesca rede subterrânea e submarina de cabos de fibra óptica.Para 
+    que essa comunicação dê certo, o sistema usa regras universais chamadas protocolos:Endereço IP: 
+    A identificação única de cada aparelho na rede, como se fosse o CEP de uma casa.Pacotes de dados: 
+    Seus arquivos (como uma foto) são divididos em pedacinhos, viajam por rotas diferentes e se 
+    juntam novamente no destino.Roteadores: Equipamentos que guiam esses pacotes pelo melhor 
+    caminho até o destino.Internet vs. Web (WWW)Muitas pessoas acham que internet e web são a mesma 
+    coisa, mas elas são tecnologias diferentes:Internet: É a estrada física (os cabos, os computadores 
+    e a infraestrutura).Web (World Wide Web): É uma das coisas que roda dentro dessa estrada. Ela é o 
+    sistema de páginas, sites, links, HTML, CSS e JavaScript que você acessa pelo navegador. Outros 
+    serviços como aplicativos de banco, jogos online e e-mails usam a internet, mas não fazem parte da web.
+    </p>
+    <p><a class="botao" href="#top">Voltar ao Inicio</a></p>
+
+  </div>
+
+  </center>
+  </main>
+</body>
+</html>

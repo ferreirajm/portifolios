@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Medico</title>
+  <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+  <form action="">
+    
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      <label>Nome : </label>
+      <input type="text"><br>
+      <label>Endereço : </label>
+      <input type="text"><br>
+      <label>Cidade : </label>
+      <input type="text"><br>
+      <p class="obs">...Mais informações pessoais...</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Historico Médico</legend>
+      <label>Gripe : </label><input type="checkbox"><br>
+      <label>Tontura : </label><input type="checkbox"><br>
+      <label>Espirro : </label><input type="checkbox"><br>
+      <label>Cansanço : </label><input type="checkbox"><br>
+      <p class="obs">...Mais detalhes do histórico médico</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Opções</legend>
+      <select>
+        <option>Nenhum</option>
+        <option>Hipertenso</option>
+        <option>Pré-Diabetes</option>
+        <option>Outros</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Medicação Atual</legend>
+      <p>...Atualmente faz uso de algum medicamento?</p>
+      <label>Sim</label>
+      <input type="radio" name="med"><br>
+      <label>Não</label>
+      <input type="radio" name="med"><br>
+      <p>...Se faz uso de algum medicamento, informe-o no espaço abaixo :</p>
+    </fieldset>
+
+    <div class="botoes">
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* Custom style overrides and updates */
+:root {
+    --bs-primary: #0d6efd;
+    --bs-dark: #212529;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: var(--bs-primary) !important;
+}
+
+header img {
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.badge {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+footer {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 15px;
+    background-color: #32373b;
+    color: white;
+}

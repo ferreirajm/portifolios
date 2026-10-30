@@ -1,0 +1,140 @@
+body {
+      background-color: rgb(29, 29, 92);
+    }
+    div {
+      padding: 10px;
+    }
+
+    li {
+      padding: 10px 30px 10px 30px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .botao {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: rgb(47, 151, 192) ;
+    }
+    .botao:hover {
+      background-color: rgb(47, 134, 192);
+    }
+    p {
+      padding: 10px;
+      text-align: right;
+    }
+
+    ul {
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+    hr {
+      margin: 0px;
+      padding: 0px;
+    }
+    li:hover {
+      background-color: rgb(255, 0, 200);
+      border-radius: 10px;
+    }
+
+    img#ban {
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+    div#formulario {
+      margin-top: 30px;
+      padding: 10px;
+      width: 785px;
+      border-radius: 10px;
+      background-color: white;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    div#cabecalho {
+      width: 785px;
+    }
+    div#conteudo {
+      width: 785px;
+    }
+    h1 {
+      margin: 0px;
+      padding: 10px;
+      color: white; 
+      font-family: Arial, Helvetica, sans-serif; 
+      font-size: 45pt;
+    }
+    h2 {
+      margin: 0px;
+      padding: 10px;
+      background-color: white;
+      color: rgb(29, 29, 92);
+      font-size: 25pt;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h3 {
+      padding: 5px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: right;
+    }
+    p#lorem {
+      padding: 10px;
+      width: 785px;
+      border-radius: 10px;
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    div#tabela{
+      padding: 10px;
+      margin: 20px auto;
+      width: 785px;
+      border-radius: 10px;
+      background-color: white;
+    }
+    table#produtos{
+      padding: 10px;
+      width: 600px;
+      border: solid 1px black;
+      border-collapse: collapse;
+      /*border-radius: 10px;
+      overflow: hidden;*/
+      font-size: 12pt;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    td, th {
+      padding: 5px;
+      border: solid 1px black;
+    }
+    .campo{
+      padding: 10px;
+      background-color: rgb(110, 164, 209);
+      color: white;
+      font-weight: bold;
+    }
+    .tema {
+      margin: 0px;
+      color: white;
+      background-color: rgb(255, 0, 200);
+      text-align: right;
+      border-radius: 10px;
+    }
+    .paragrafo {
+      background-color: rgb(29, 29, 92);
+      color: white;
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15pt;
+    }

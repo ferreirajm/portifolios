@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 id="top">Programação WEB</h1>
+    <h2>Curso de Redes de computadores</h2>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="form.html" target="_self">FORM</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <main>
+  <center>
+  <div id="cabecalho">
+    <h3>Criação de Formularios</h3>
+  </div>
+    <img id="ban" src="img/baner.png" alt="Banner Representativo" width="auto" height="450px">
+  </div>
+  <div id="formulario" style="width: 750px; ">
+    <form action="../html/action.php" method="post" id="usuario">
+      <fieldset>
+        <legend>Usuário</legend>
+          <div>
+            <label for="name">login: </label>
+            <input type="text" size="40" name="login">
+            <label for="">Senha</label>
+            <input type="password" >
+          </div>
+      </fieldset>    
+      <fieldset>
+        <legend>Genero</legend>
+          <div>
+            <input type="radio" name="sex">
+            <label>Masculino</label>
+            <input type="radio" name="sex">
+            <label for="">Feminino</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Esportes</legend>
+          <div id="checkbox">
+            <input type="checkbox" name="sports">
+            <label>Futebol</label>
+            <input type="checkbox" name="sports">
+            <label for="">Natação</label>
+            <input type="checkbox" name="sports">
+            <label for="">Ginastica</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Upload Arquivo</legend>
+          <div id="arquivos">
+            <label>Upload</label>
+            <input type="file" name="upload">
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Endereço</legend>
+          <div id="texto">
+            <label>Texto: </label>
+            <textarea name="endereco" id="" rows="3" cols="50"></textarea>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Selecione a sua Cidade</legend>      
+          <div id="cidades">
+            <label>Cidades: </label>
+            <select name="cidades" id="cidades">
+              <option value="Vitoria">Vitoria</option>
+              <option value="Vila Velha">Vila Velha</option>
+              <option value="Cariacica">Cariacica</option>
+            </select>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Ação</legend>      
+          <div id="enviar">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+          </div>
+      </fieldset>  
+    </form>
+  </div>
+  </center>
+  </main>
+</body>
+</html>
